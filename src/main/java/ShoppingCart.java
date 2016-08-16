@@ -35,6 +35,11 @@ public class ShoppingCart {
                 ++orangeCount;
             }
         }
+
+        appleCount = appleCount / 2 + appleCount % 2;
+
+        orangeCount = orangeCount * 2 / 3 + orangeCount % 3;
+
         //calculate the total cost
         return APPLE_PRICE.multiply(new BigDecimal(appleCount)).add(ORANGE_PRICE.multiply(new BigDecimal(orangeCount)));
     }
