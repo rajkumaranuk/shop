@@ -1,0 +1,7 @@
+Open the project in IDE
+Run the ShoppingCart.java
+Enter comma separated string with apple and orange (case insensitive)
+eg: apple, ORANGE, orange, APPLE, Apple
+And ENTER
+The total cost will be displayed
+
