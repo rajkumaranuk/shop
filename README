@@ -1,3 +1,5 @@
+Using IDE
+=========
 Open the project in IDE
 Run the ShoppingCart.java
 Enter comma separated string with apple and orange (case insensitive)
@@ -5,3 +7,12 @@ eg: apple, ORANGE, orange, APPLE, Apple
 And ENTER
 The total cost will be displayed
 
+Using Maven
+===========
+mvn clean package
+cd target
+java -jar shop-1.0.jar
+Enter comma separated string with apple and orange (case insensitive)
+eg: apple, ORANGE, orange, APPLE, Apple
+And ENTER
+The total cost will be displayed
