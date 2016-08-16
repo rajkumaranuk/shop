@@ -15,9 +15,9 @@ public class ShoppingCartTest {
 
     @Test
     public void checkout() {
-        String input = "apple, ORANGE, orange, Apple, APPLE, Orange, mango";
+        String input = "apple, ORANGE, orange, Apple, APPLE, Orange, orange, mango";
         BigDecimal cost = shoppingCart.checkout(input);
-        Assert.assertEquals("Total cost doesn't match", new BigDecimal("1.70"), cost);
+        Assert.assertEquals("Total cost doesn't match", new BigDecimal("1.95"), cost);
     }
 
     /**
